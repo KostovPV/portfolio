@@ -6,7 +6,7 @@ function Hero() {
     return <section className={clsses.hero}>
         <div className={clsses.image}>
             <Image
-                src="/images/site/fotka.jpg"
+                src="/images/site/web.webp"
                 alt="An image showing Plamen"
                 width={300}
                 height={300} />
