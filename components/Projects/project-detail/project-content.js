@@ -3,21 +3,16 @@ import ReactMarkdown from 'react-markdown';
 import ProjectHeader from "./project-header"
 import classes from './project-content.module.css'
 
-const DUMMY_PROJECT = {
-    slug: 'geting-started-with-portfolio3',
-    title: 'Portfolio statring project',
-    image: 'geting-started-with-portfolio3.png',
-    content: '# The is the project content',
-    date: '2024-02-22'
-}
 
-function ProjectContent() {
-    const imagePath = `/images/projects/${DUMMY_PROJECT.slug}/${DUMMY_PROJECT.image}`
+
+function ProjectContent(props) {
+    const {project} = props
+    const imagePath = `/images/projects/${project.slug}/${project.image}`
 
     return (
         <article className={classes.content}>
-            <ProjectHeader title={DUMMY_PROJECT.title} image={imagePath} />
-            <ReactMarkdown>{DUMMY_PROJECT.content}</ReactMarkdown>
+            <ProjectHeader title={project.title} image={imagePath} />
+            <ReactMarkdown>{project.content}</ReactMarkdown>
         </article>
     )
 }

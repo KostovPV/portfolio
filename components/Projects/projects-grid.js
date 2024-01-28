@@ -3,14 +3,16 @@ import classes from './projects-grid.module.css'
 
 function ProjectsGrid (props) {
     const {projects} = props;
-
+if(projects){
     return (
         <ul className={classes.grid}>
-            {projects.map(project=> (
+            {projects.map((project)=> (
             <ProjectItem key={project.slug} project ={project} />
             ))}
         </ul>
     )
+}
+   
 }
 
 export default ProjectsGrid

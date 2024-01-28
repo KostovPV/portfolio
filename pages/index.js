@@ -2,39 +2,28 @@ import { Fragment } from "react"
 
 import FeaturedProjects from "@/components/home-page/featured-projects"
 import Hero from "@/components/home-page/hero"
+import { getFeaturedProjects } from "@/lib/projects-util"
 
-const DUMMY_PROJECTS = [
-    {
-        slug: 'geting-started-with-portfolio',
-        title: 'Portfolio statring project',
-        image: 'geting-started-with-portfolio.png',
-        excerpt: 'The Plamens project used to provide information for him',
-        date: '2024-02-22'
-    },
-    {
-        slug: 'geting-started-with-portfolio2',
-        title: 'Portfolio statring project',
-        image: 'geting-started-with-portfolio2.png',
-        excerpt: 'The Plamens project used to provide information for him',
-        date: '2024-02-22'
-    },
-    {
-        slug: 'geting-started-with-portfolio3',
-        title: 'Portfolio statring project',
-        image: 'geting-started-with-portfolio3.png',
-        excerpt: 'The Plamens project used to provide information for him',
-        date: '2024-02-22'
-    }
-]
 
-function HomePage() {
+
+function HomePage(props) {
 
     return (
         <Fragment>
             <Hero />
-            <FeaturedProjects projects={ DUMMY_PROJECTS } />
+            <FeaturedProjects projects={ props.projects} />
         </Fragment>
     )
+}
+
+export function getStaticProps(){
+    const featuredProjects = getFeaturedProjects();
+
+    return {
+        props: {
+            projects: featuredProjects
+        }
+    }
 }
 
 export default HomePage
