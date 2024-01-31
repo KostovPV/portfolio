@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Fragment } from "react"
 
 import FeaturedProjects from "@/components/home-page/featured-projects"
@@ -10,6 +11,10 @@ function HomePage(props) {
 
     return (
         <Fragment>
+            <Head>
+                <title>Plamen Kostov official page</title>
+                <meta name="description" content="Portfolio page of Plamen Kostov Web developer" />
+            </Head>
             <Hero />
             <FeaturedProjects projects={ props.projects} />
         </Fragment>
