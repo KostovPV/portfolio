@@ -3,7 +3,7 @@ import classes from './featured-projects.module.css'
 
 function FeaturedProjects(props) {
     return <section className={classes.latest}>
-        <h2>Reatured Projects</h2>
+        <h2>Featured Projects</h2>
         <ProjectsGrid projects={props.projects} />
     </section>
 }
