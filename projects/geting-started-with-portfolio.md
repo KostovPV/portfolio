@@ -1,34 +1,32 @@
 ---
-title: 'This is the project title'
-date: '2024-02-21'
-image: geting-started-with-portfolio.png
-excert: This my firs ptoject listed in the Portfolio page
+title: 'Marine solutions center'
+date: '2023-08-21'
+image: marine.png
+excerpt: An Angular single page aplication project in which seamans can find jobs. 
 isFeatured: true
 ---
 
 
-NextJS is a **framework for ReactJS**.
+Marine solutions center is a **single page aplication with Angular**.
 
-Wait a second ... a "framework" for React? Isn't React itself already a framework for JavaScript?
+It is designed as a platfor for creating and posting jobs for seafarers. 
 
-Well ... first of all, React is a "library" for JavaScript. That seems to be important for some people.
+## Key features of the app:
 
-Not for me, but still, there is a valid point: React already is a framework / library for JavaScript. So it's already an extra layer on top of JS.
+- On the app landing page, you can find brief information about the web page, and it can be toggled to view more or less info.
+- Not registered users can view the home page and the jobs but not the details. Once the details are pressed, they are redirected to the login page. 
+- At the login page, users must fill up the correct email and password. Validation and error handling are in place for the email and password, and a pop-up message with the toaster is displayed in case of successful or unsuccessful login.
+- After successful login, the user is redirected to the home page. In the "Opened jobs" section, they can browse through the available jobs. They can also subscribe to a respective job, and the subscribers' counter for the corresponding job increases. Subscription can be done only once. 
+- Logged in users can create a new job. All fields must be correctly filled up, and validation of the form inputs is implemented.
+-The user can edit their own job by changing the input field values, and validation of the form is implemented. 
+- The user, the author of the job, can also delete it. A confirmation window must be activated to confirm the deletion, and the user is redirected to the home page.
+- Logout redirects the user to the landing page. 
+- Unregistered users can sign up by entering a valid name, email, and password. The repeat password must match the password, and validation is implemented for all fields. 
+02:27 - 03:00:-profile by filling up First Name, Last Name, Phone, Address, and uploading an image. A toaster message pops up upon upload and save completion.
 
-## Why would we then need NextJS?
 
-Because NextJS makes building React apps easier - especially React apps that should have server-side rendering (though it does way more than just take care of that).
 
-In this article, we'll dive into the core concepts and features NextJS has to offer:
 
-- File-based Routing
-- Built-in Page Pre-rendering
-- Rich Data Fetching Capabilities
-- Image Optimization
-- Much More
+## Wath a brief video of the app
 
-## File-based Routing
-
-![Create routes via your file + folder structure](diy.png)
-
-... More content ...
+Learn more about it [watch the video here](https://www.youtube.com/watch?v=_qLGwOMNAx8).
