@@ -36,7 +36,7 @@ The Kid's center is a **the** place where you can book a great patry for your ki
 
 ## Watch a brief video of the app
 
-Learn more about it [watch the video here](https://www.youtube.com/watch?v=_qLGwOMNAx8).
+Learn more about it [watch the video here](https://www.youtube.com/watch?v=EohIGngL4iE).
 
 
 
