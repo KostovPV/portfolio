@@ -2,7 +2,7 @@
 title: The Kid's center
 excerpt: The Kid's center is a SPA where you can book a patry for your kid
 image: the-kid's-center.png
-isFeatured: false
+isFeatured: true
 date: '2023-12-23'
 ---
 

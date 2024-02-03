@@ -3,7 +3,7 @@ title: 'Marine solutions center'
 date: '2023-08-21'
 image: marine.png
 excerpt: An Angular single page aplication project in which seamans can find jobs. 
-isFeatured: true
+isFeatured: false
 ---
 
 
