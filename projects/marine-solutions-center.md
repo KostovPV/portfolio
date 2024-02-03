@@ -22,11 +22,11 @@ It is designed as a platfor for creating and posting jobs for seafarers.
 - The user, the author of the job, can also delete it. A confirmation window must be activated to confirm the deletion, and the user is redirected to the home page.
 - Logout redirects the user to the landing page. 
 - Unregistered users can sign up by entering a valid name, email, and password. The repeat password must match the password, and validation is implemented for all fields. 
-02:27 - 03:00:-profile by filling up First Name, Last Name, Phone, Address, and uploading an image. A toaster message pops up upon upload and save completion.
+- Upon signing up, the user is redirected to the home page. They can update their profile by filling up First Name, Last Name, Phone, Address, and uploading an image. A toaster message pops up upon upload and save completion.
 
 
 
 
-## Wath a brief video of the app
+## Watch a brief video of the app
 
 Learn more about it [watch the video here](https://www.youtube.com/watch?v=_qLGwOMNAx8).
