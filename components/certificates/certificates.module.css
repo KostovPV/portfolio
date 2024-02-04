@@ -1,7 +1,7 @@
 .certificates {
     width: 90%;
     max-width: 60rem;
-    margin: var(--size-8) auto;
+    margin: var(--size-16) auto;
   }
   
   .certificates h1 {
@@ -10,6 +10,7 @@
     text-align: center;
   }
   .certificates ul li a {
+    font-size: var(--size-6);;
     color: #2437b3; /* Add your desired text color here */
     text-decoration: none; /* Remove underline from links if needed */
   }

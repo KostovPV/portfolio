@@ -7,7 +7,7 @@ function Certificates() {
     return <section className={classes.certificates}>
 
 
-        <h1 >These are the certificates I obtained during my education on the path of becoming a web developer.</h1>
+        <h1 >These are the certificates I obtained during my education on the path of becoming a web developer</h1>
         <section>
             <h2>SoftUni cources</h2>
             <ul>
