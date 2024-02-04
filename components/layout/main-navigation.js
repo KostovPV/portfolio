@@ -15,6 +15,7 @@ function MainNavigation() {
                 <ul>
                     <li><Link href="/projects">Projects</Link></li>
                     <li><Link href="/contact">Contact</Link></li>
+                    <li><Link href="/certificates">Certificates</Link></li>
                 </ul>
             </nav>
         </header>

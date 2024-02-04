@@ -36,7 +36,12 @@ The Kid's center is a **the** place where you can book a great patry for your ki
 
 ## Watch a brief video of the app
 
-Learn more about it [watch the video here](https://www.youtube.com/watch?v=EohIGngL4iE).
+
+Learn more about it by 
+
+- [visiting the web page here](https://exam-5da15.web.app/)
+or
+ - [watch the video here](https://www.youtube.com/watch?v=EohIGngL4iE).
 
 
 
