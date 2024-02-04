@@ -1,0 +1,21 @@
+.certificates {
+    width: 90%;
+    max-width: 60rem;
+    margin: var(--size-8) auto;
+  }
+  
+  .certificates h1 {
+    font-size: var(--size-8);
+    color: var(--color-grey-800);
+    text-align: center;
+  }
+  .certificates ul li a {
+    color: #2437b3; /* Add your desired text color here */
+    text-decoration: none; /* Remove underline from links if needed */
+  }
+  
+  @media (min-width: 768px) {
+    .certificates h1 {
+      font-size: var(--size-8);
+    }
+  }
