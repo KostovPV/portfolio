@@ -18,7 +18,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/diploma.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -33,7 +33,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/reactJS.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -47,7 +47,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/typeScriptSoftUni.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -61,7 +61,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/angular.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -75,7 +75,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/htmlCss.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -89,7 +89,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/jsBackEnd.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -103,7 +103,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/jsApplications.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -117,7 +117,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/jsAdvanced.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -131,7 +131,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/programmingFundamentals.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -145,7 +145,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/programmingBasic.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -159,7 +159,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/agileEssentials.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -180,7 +180,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/next.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -195,7 +195,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/MYSQL.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -211,7 +211,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/typescrypt.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -226,7 +226,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/reactUdemy.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
@@ -241,7 +241,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/webDeveloper.jpg'
+                src='/images/certificates/agile.jpg'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
