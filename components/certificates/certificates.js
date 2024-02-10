@@ -33,7 +33,7 @@ function Certificates() {
 
             <div className={classes.image}>
               <Image
-                src='/images/certificates/reactJS.png'
+                src='/images/certificates/reactJs.png'
                 alt='JS Web Developer image'
                 width={100}
                 height={100}
