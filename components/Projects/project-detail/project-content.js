@@ -17,12 +17,19 @@ function ProjectContent(props) {
                 const image = node.children[0];
                 const imageAlt = image.alt || "Image pf the project"; // Fallback alt text
                 return (
-                    <div className={classes.image}>
+                    <div className={classes.image} >
+                        {/* <Image
+                            src={`/images/projects/${project.slug}/${image.properties.src}`}
+                            alt={imageAlt}
+                            width={600}
+                            height={300}
+                        /> */}
                         <Image
                             src={`/images/projects/${project.slug}/${image.properties.src}`}
                             alt={imageAlt}
                             width={600}
                             height={300}
+                            style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
                         />
                     </div>
                 );

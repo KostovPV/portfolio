@@ -1,48 +1,51 @@
 ---
-title: Friends web page
-excerpt: Web page for a kids hourly play and birthday parties center
+title: Party Center Friends
+excerpt: Web page for a kids' hourly play and birthday parties center.
 image: friends-site.png
 isFeatured: true
 date: '2024-10-30'
 ---
 
-Friend is  **the** place where you can relax while your kids are enjoying wanderfull time.
+Party Center Friends is a **React-based web page** designed for a kids' party center that organizes games and parties for children.
 
+**[Live Demo: Visit Party Center Friends](https://partycenterfriends.com/)**
 
+## Key Features:
 
+### Authentication
+- User registration and login system.
+- Allows login with email and password or through Google profile integration.
 
-## Key features of the app:
+### Accessibility
+- **Unregistered Users**: Can access all pages except like/dislike functionality on photos.
+- **Admin Users**: Can upload, edit, delete photos, tag users, and monitor site statistics.
 
-- Implemented google maps
-- Visited counter integrated on each login
-- Sending an email to each subscribed user
-- React date picker integrated - so that the there cannot be two events in one day
+### Firebase Integration
+- Firebase as the backend database ensures seamless data management and real-time synchronization for a smooth user experience.
 
-## The basic functionality of the app is as follows
+## Tech Stack:
+- **React**: For a dynamic and responsive user interface.
+- **Firebase**: For real-time data storage and secure authentication.
 
-- Unregistered users can access the home page, find us page, login, and register.
-- After successfully logging in, the user has access to all pages.
-- On the about page, you can toggle more and less info.
-- On the pacages page, you can find more information about the offered packages, and the info can be toggled.
-- On the party's list, you can find info about all listed parties.
-- Users can create a new party. Validation and error handling are in place.
-- Parties can be edited by the author. The date cannot be changed. The author can also delete the party, and a toaster message is displayed.
-- Successful logout redirects to the login page.
-- New users can sign up after entering a valid email and password. Validation is in place for both fields, including the repeat password.
-- After successful login, the page visited counter increases by one.
-- Logged-in users can update their profile picture.
-- The links in the header are active and functional.
-- Subscribing to the page will trigger a welcome message to the entered email, and a subscriber message will appear from the toaster.
+## Screenshots:
 
-## Watch a brief video of the app
+- **Home Page (No User Logged In)** ![home](https://github.com/user-attachments/assets/7e55e8db-e613-4b14-bdc6-ea0a2e861793)
+- **Home Page (Logged In)**
 
+## Additional Pages:
 
-Learn more about it by 
+- **Contacts** ![contacts](https://github.com/user-attachments/assets/2ed2ff81-b945-4b6d-95f7-70ba8d3b4dff)
+- **Login Page** ![login](https://github.com/user-attachments/assets/9d294845-ed2c-4928-9a87-23d69e3acdbe)
+- **Register Page** ![register](https://github.com/user-attachments/assets/cfa006e1-507b-4e2b-a8da-175613446f6e)
+- **Terms Page** ![terms](https://github.com/user-attachments/assets/342b3fe0-fb8f-4214-8ced-47c73fc1c0bf)
+- **Gallery** ![gallery](https://github.com/user-attachments/assets/181a185f-aad1-4acf-9be7-34a1eb8eabc2)
+- **Book Page** ![book](https://github.com/user-attachments/assets/e767c4ec-86da-4a72-81fe-707f422aa757)
+- **Single-image Page** ![image-card](https://github.com/user-attachments/assets/e2e57587-6d00-4699-9ad0-dd763097c480)
+- **Upload Page** ![upload](https://github.com/user-attachments/assets/11bbf51a-101f-45c6-967e-c6c4a75e0738)
+- **Edit Page** ![edit](https://github.com/user-attachments/assets/5ae4b24d-96f2-4a56-8934-f3981580fc55)
+- **Statistics Page** ![statistics](https://github.com/user-attachments/assets/0befc6c0-52df-4f71-8e7c-cf988cb7e9f5)
+- **404 Page** - Custom error page for unavailable content.
 
-- [visiting the web page here](https://exam-5da15.web.app/)
-or
- - [watch the video here](https://www.youtube.com/watch?v=EohIGngL4iE).
-
-
-
+## Video Overview
+Watch a brief video of the app in action [here](https://www.youtube.com/watch?v=X4TxyevenR0).
 
