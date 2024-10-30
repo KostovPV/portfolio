@@ -1,12 +1,12 @@
 ---
-title: The Kid's center
-excerpt: The Kid's center is a SPA where you can book a patry for your kid
-image: the-kid's-center.png
-isFeatured: false
-date: '2023-12-23'
+title: Friends web page
+excerpt: Web page for a kids hourly play and birthday parties center
+image: friends-site.png
+isFeatured: true
+date: '2024-10-30'
 ---
 
-The Kid's center is a **the** place where you can book a great patry for your kids.
+Friend is  **the** place where you can relax while your kids are enjoying wanderfull time.
 
 
 
