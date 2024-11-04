@@ -25,3 +25,13 @@ export function getStaticProps() {
 }
 
 export default AllProjectsPage
+
+// ```js
+// const basics = 'Okay, that should not be too difficult actually';
+
+// function printBasics() {
+//   console.log(basics):
+// }
+
+// printBasics();
+// ``` 
