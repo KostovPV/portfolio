@@ -7,7 +7,7 @@
     align-items: center;
     padding: 0 10%;
   }
-  
+
   .header ul {
     list-style: none;
     display: flex;
@@ -40,3 +40,24 @@
       font-size: var(--size-5);
     }
   }
+  @media (min-width: 500px0px) {
+    .header ul {
+      gap: 0.5rem;
+    }
+  
+    .header a {
+      font-size: var(--size-5);
+    }
+  }
+
+  @media (max-width: 420px) {
+    .header {
+        padding: 0 5%; 
+    }
+    .header ul {
+      gap: 0.3rem;
+    }
+    .header ul li{
+      margin: 0.8rem;
+    }
+}
