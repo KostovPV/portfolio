@@ -3,7 +3,7 @@ title: FixComputers
 excerpt: A comprehensive IT solution and computer repair service.
 image: fix-computers.png
 isFeatured: false
-date: '2024-11-01'
+date: '2024-01-01'
 ---
 
 # FixComputers
