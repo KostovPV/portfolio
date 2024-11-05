@@ -8,7 +8,7 @@ date: '2024-11-01'
 
 # FixComputers
 
-**FixComputers** is a leading IT solutions provider specializing in comprehensive computer repair services, network solutions, and IT support. Based in Bulgaria, FixComputers ensures top-notch service and customer satisfaction.
+**FixComputers** is a  IT solutions provider specializing in comprehensive computer repair services, network solutions, and IT support. Based in Bulgaria, FixComputers ensures top-notch service and customer satisfaction.
 
 **[Visit FixComputers](https://fixcomputers.bg/)**
 
