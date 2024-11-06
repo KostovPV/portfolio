@@ -13,7 +13,7 @@ function HomePage(props) {
         <Fragment>
             <Head>
                 <title>Plamen Kostov official page</title>
-                <meta name="description" content="Portfolio page of Plamen Kostov Web developer" />
+                <meta name="description" content="Portfolio page of the web developer Plamen Kostov" />
             </Head>
             <Hero />
             <FeaturedProjects projects={ props.projects} />
